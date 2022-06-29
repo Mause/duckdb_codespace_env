@@ -15,25 +15,41 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"vscjava.vscode-java-pack",
 				"ms-vscode.cpptools",
 				"ms-vscode.cmake-tools",
 				"ms-vscode.cpptools-extension-pack"
-			]
-		},
-		"codespaces": {
-			"repositories": {
-				"duckdb/duckdb": {
-					"permissions": {
-						"contents": "read"
+			],
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"java.jdt.ls.java.home": "/docker-java-home",
+				"java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/current",
+				"java.configuration.runtimes": [
+					{
+						"default": true,
+						"name": "JavaSE-1.8",
+						"path": "/usr/local/sdkman/candidates/java/current"
 					}
-				},
-				"Mause/duckdb": {
-					"permissions": {
-						"contents": "write"
-					}
+				]
+			}
+		}
+	},
+	"codespaces": {
+		"repositories": {
+			"duckdb/duckdb": {
+				"permissions": {
+					"contents": "read"
+				}
+			},
+			"Mause/duckdb": {
+				"permissions": {
+					"contents": "write"
 				}
 			}
 		}
+	},
+	"containerEnv": {
+		"JAVA_HOME": "/usr/local/sdkman/candidates/java/current"
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
