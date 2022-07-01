@@ -32,18 +32,13 @@
 					}
 				]
 			}
-		}
-	},
-	"codespaces": {
-		"repositories": {
-			"duckdb/duckdb": {
-				"permissions": {
-					"contents": "read"
-				}
-			},
-			"Mause/duckdb": {
-				"permissions": {
-					"contents": "write"
+		},
+		"codespaces": {
+			"repositories": {
+				"Mause/duckdb": {
+					"permissions": {
+						"contents": "write"
+					}
 				}
 			}
 		}
