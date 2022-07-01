@@ -58,6 +58,6 @@
 		"fish": "latest",
 		"node": "lts",
 		"python": "latest",
-		"java": "lts"
+		"java": "latest"
 	}
 }
