@@ -35,6 +35,11 @@
 		},
 		"codespaces": {
 			"repositories": {
+				"Mause/duckdb-web": {
+					"permissions": {
+						"contents": "write"
+					}
+				},
 				"Mause/duckdb": {
 					"permissions": {
 						"contents": "write"
