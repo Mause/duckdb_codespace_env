@@ -22,7 +22,7 @@
 			],
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				"java.jdt.ls.java.home": "/docker-java-home",
+				"java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current",
 				"java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/current",
 				"java.configuration.runtimes": [
 					{
@@ -49,7 +49,7 @@
 		}
 	},
 	"containerEnv": {
-		"JAVA_HOME": "/usr/local/sdkman/candidates/java/current"
+		"JAVA_HOME": "/usr/local/sdkman/candidates/java/17.0.3-ms"
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
