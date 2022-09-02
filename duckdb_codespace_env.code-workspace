@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "duckdb-web"
+		},
+		{
+			"path": "jdbccts"
 		}
 	],
 	"settings": {}
