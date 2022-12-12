@@ -4,9 +4,6 @@
 [submodule "duckdb-web"]
 	path = duckdb-web
 	url = https://github.com/Mause/duckdb-web
-[submodule "duckdb-web"]
-	path = duckdb-web
-	url = https://github.com/cwida/jdbccts
 [submodule "jdbccts"]
 	path = jdbccts
 	url = https://github.com/cwida/jdbccts
