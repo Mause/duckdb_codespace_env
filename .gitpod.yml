@@ -8,11 +8,11 @@ tasks:
       ./duckdb/build/debug/duckdb -c 'pragma version'
 workspaceLocation: duckdb_codespace_env.code-workspace
 additionalRepositories:
-  - checkoutLocation: /workspace/duckdb_codespace_env/duckdb
+  - checkoutLocation: duckdb
     url: https://github.com/Mause/duckdb
-  - checkoutLocation: /workspace/duckdb_codespace_env/duckdb-web
+  - checkoutLocation: duckdb-web
     url: https://github.com/Mause/duckdb-web
-  - checkoutLocation: /workspace/duckdb_codespace_env/jdbccts
+  - checkoutLocation: jdbccts
     url: https://github.com/cwida/jdbccts
 vscode:
   extensions:
