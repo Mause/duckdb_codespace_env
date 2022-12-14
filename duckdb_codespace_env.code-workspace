@@ -4,13 +4,13 @@
 			"path": "."
 		},
 		{
-			"path": "duckdb"
+			"path": "../duckdb"
 		},
 		{
-			"path": "duckdb-web"
+			"path": "../duckdb-web"
 		},
 		{
-			"path": "jdbccts"
+			"path": "../jdbccts"
 		}
 	],
 	"settings": {}
