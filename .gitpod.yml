@@ -1,5 +1,6 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
+      cd duckdb
+      GEN=ninja make debug
     command: |
       echo 'TODO: start app'
