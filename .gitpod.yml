@@ -1,11 +1,11 @@
 tasks:
   - init: |
-      sudo apt update
-      sudo apt install cmake ninja-build git
+      sudo apt update -y
+      sudo apt install cmake ninja-build git valgrind -y
       cd duckdb
       GEN=ninja make debug
     command: |
-      echo 'TODO: start app'
+      ./duckdb/build/debug/duckdb -c 'pragma version'
 workspaceLocation: duckdb_codespace_env.code-workspace
 additionalRepositories:
   - checkoutLocation: /workspace/duckdb_codespace_env/duckdb
