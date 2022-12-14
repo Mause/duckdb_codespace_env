@@ -1,6 +1,22 @@
 tasks:
   - init: |
+      sudo apt update
+      sudo apt install cmake ninja-build git
       cd duckdb
       GEN=ninja make debug
     command: |
       echo 'TODO: start app'
+workspaceLocation: duckdb_codespace_env.code-workspace
+additionalRepositories:
+  - checkoutLocation: /workspace/duckdb_codespace_env/duckdb
+    url: https://github.com/Mause/duckdb
+  - checkoutLocation: /workspace/duckdb_codespace_env/duckdb-web
+    url: https://github.com/Mause/duckdb-web
+  - checkoutLocation: /workspace/duckdb_codespace_env/jdbccts
+    url: https://github.com/cwida/jdbccts
+vscode:
+  extensions:
+    - "vscjava.vscode-java-pack"
+    # - "ms-vscode.cpptools"
+    - "ms-vscode.cmake-tools"
+    # - "ms-vscode.cpptools-extension-pack"
