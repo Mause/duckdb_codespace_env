@@ -14,6 +14,8 @@ additionalRepositories:
     url: https://github.com/Mause/duckdb-web
   - checkoutLocation: jdbccts
     url: https://github.com/cwida/jdbccts
+gitConfig:
+  push.autoSetupRemove: 'true'
 vscode:
   extensions:
     - "vscjava.vscode-java-pack"
