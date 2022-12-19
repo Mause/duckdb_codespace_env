@@ -16,6 +16,10 @@ additionalRepositories:
     url: https://github.com/cwida/jdbccts
 gitConfig:
   push.autoSetupRemove: 'true'
+  init.defaultBranch: main
+  pull.rebase: 'false'
+  fetch.prune: 'true'
+  fetch.showForcedUpdates: 'true'
 vscode:
   extensions:
     - "vscjava.vscode-java-pack"
