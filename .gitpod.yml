@@ -1,7 +1,8 @@
 tasks:
-  - init: |
+  - before: |
       sudo apt update -y
-      sudo apt install cmake ninja-build git valgrind -y
+      sudo apt install cmake ninja-build git valgrind ccache -y
+    init: |
       cd ../duckdb
       git pull --tags
       GEN=ninja make debug
