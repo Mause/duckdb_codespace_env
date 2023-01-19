@@ -1,7 +1,9 @@
+image:
+  file: .devcontainer/Dockerfile
 tasks:
   - before: |
       sudo apt update -y
-      sudo apt install cmake ninja-build git valgrind ccache -y
+      sudo apt install cmake ninja-build git valgrind ccache mold -y
     init: |
       cd ../duckdb
       git pull --tags
