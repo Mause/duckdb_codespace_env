@@ -3,7 +3,7 @@ image:
 tasks:
   - before: |
       sudo apt update -y
-      sudo apt install cmake ninja-build git valgrind ccache mold fish -y
+      sudo apt install cmake ninja-build git valgrind ccache mold fish python3-setuptools python3-pip cmake-curses-gui -y
     init: |
       cd ../duckdb
       git pull --tags
