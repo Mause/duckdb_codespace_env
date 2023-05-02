@@ -13,5 +13,9 @@
 			"path": "../jdbccts"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"redhat.telemetry.enabled": false,
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
 }
