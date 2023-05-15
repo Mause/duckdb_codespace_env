@@ -4,7 +4,7 @@ tasks:
   - before: |
       sudo apt update -y
       curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-      sudo apt install cmake ninja-build git valgrind ccache mold fish python3-setuptools python3-pip cmake-curses-gui nodejs openjdk-17-jdk -y
+      sudo apt install cmake ninja-build git valgrind ccache mold fish python3-setuptools python3-pip cmake-curses-gui nodejs openjdk-17-jdk default-jdk -y
       pip install clang-format==11.1.0.2 cmake-format
     init: |
       cd ../duckdb
