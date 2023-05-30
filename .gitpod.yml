@@ -7,9 +7,6 @@ tasks:
       GEN=ninja make debug
     command: |
       ./../duckdb/build/debug/duckdb -c 'pragma version'
-    env:
-      CC: "ccache gcc"
-      CXX: "ccache g++"
 workspaceLocation: duckdb_codespace_env/duckdb_codespace_env.code-workspace
 additionalRepositories:
   - checkoutLocation: duckdb
