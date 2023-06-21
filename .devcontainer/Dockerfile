@@ -13,6 +13,3 @@ RUN bash install.sh
 RUN useradd -l -u 33333 -G sudo -md /home/gitpod -s /bin/bash -p gitpod gitpod
 
 USER gitpod
-
-ENV CC "ccache gcc"
-ENV CXX "ccache g++"
