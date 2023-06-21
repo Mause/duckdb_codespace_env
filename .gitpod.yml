@@ -4,7 +4,7 @@ tasks:
   - init: |
       cd ../duckdb
       git pull --tags
-      GEN=ninja make debug
+      GEN=ninja DEBUG_STACKTRACE=1 make debug
     command: |
       ./../duckdb/build/debug/duckdb -c 'pragma version'
 workspaceLocation: duckdb_codespace_env/duckdb_codespace_env.code-workspace
