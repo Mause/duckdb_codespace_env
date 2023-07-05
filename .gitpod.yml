@@ -15,6 +15,10 @@ additionalRepositories:
     url: https://github.com/Mause/duckdb-web
   - checkoutLocation: jdbccts
     url: https://github.com/cwida/jdbccts
+  - checkoutLocation: duckdb-wasm
+    url: https://github.com/Mause/duckdb-wasm
+  - checkoutLocation: sqlite_scanner
+    url: https://github.com/Mause/sqlite_scanner
 gitConfig:
   push.autoSetupRemove: 'true'
   init.defaultBranch: main

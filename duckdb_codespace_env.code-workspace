@@ -11,6 +11,12 @@
 		},
 		{
 			"path": "../jdbccts"
+		},
+		{
+			"path": "../duckdb-wasm"
+		},
+		{
+			"path": "../sqlite_scanner"
 		}
 	],
 	"settings": {
