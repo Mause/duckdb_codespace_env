@@ -19,6 +19,8 @@ additionalRepositories:
     url: https://github.com/Mause/duckdb-wasm
   - checkoutLocation: sqlite_scanner
     url: https://github.com/Mause/sqlite_scanner
+  - checkoutLocation: duckdb-node
+    url: https://github.com/Mause/duckdb-node
 gitConfig:
   push.autoSetupRemove: 'true'
   init.defaultBranch: main

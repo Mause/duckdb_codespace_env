@@ -10,6 +10,9 @@
 			"path": "../duckdb-web"
 		},
 		{
+			"path": "../duckdb-node"
+		},
+		{
 			"path": "../jdbccts"
 		},
 		{
